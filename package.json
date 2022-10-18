@@ -3,10 +3,16 @@
   "version": "2.14.0",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://m4tt72.com",
-    "email": "hi@m4tt72.com"
+    "name": "Muhmmad Swalha",
+    "url": "https://swalha1999.com",
+    "email": "mohamd514.m@gmail.com"
   },
+  
+
+  "engines": {
+    "node": "16.17.0"
+  },
+
   
   "repository": {
     "type": "git",
