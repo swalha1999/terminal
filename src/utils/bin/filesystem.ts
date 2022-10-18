@@ -3,7 +3,7 @@ import  root  from "../../filesystem/filesystem";
 let fileroot = root;
 
 export const ls = async (args: string[]): Promise<string> => {
-    return fileroot.getFolders() + " "+ fileroot.getFiles();
+    return '<p style="color: blue">'+fileroot.getFolders() + '</p> <p style="color: blue">'+ fileroot.getFiles() + '</p>';
 };
 
 export const mkdir = async (args: string[]): Promise<string> => {

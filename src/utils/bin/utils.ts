@@ -4,30 +4,30 @@ import * as bin from './index';
 export const help = async (args: string[]): Promise<string> => {
   // const commands = Object.keys(bin).sort().join(', ');
   // return `Available commands:\n${commands}\n\n[tab]\t trigger completion.\n[ctrl+l] clear terminal.\n[ctrl+c] cancel command.`;
-
+  ///\n  <p style="color: red"> try: </p>   cv
   return `Available commands:
   
-  cv: get my cv.
-  about: get information about the me and the project.
-  
-  help: get all available commands and their usage.
-  clear: clear the terminal.
-  ls: list all files and directories.
-  cd: change directory.
-  pwd: print working directory.
-  mkdir: create a directory.
-  theme: change the theme.
-  weather: get the weather of a city.
-  echo: print a message or make file with message.
-  cat: print the content of a file.
-  touch: create a file.
-  rm: remove a file or directory.
-  linkedin: get my linkedin profile.
-  github: get my github profile.
-  instagram: get my instagram profile.
-  figlet: print a message in ascii art.
-  cowsay: print a message in a cow.
-  
+  <p style="color: green">cv</p> get my cv. 
+  <p style="color: green">about</p> get information about the me and the project.
+  <p style="color: green">linkedin</p> get my linkedin profile.
+  <p style="color: green">github</p> get my github profile.
+  <p style="color: green">instagram</p> get my instagram profile.
+  <p style="color: green">cowsay</p> print a message in a cow.
+  <p style="color: green">figlet</p> print a message in ascii art. \n <p style="color: red"> try: </p>   figlet helloWorld
+  <p style="color: green">weather</p> get the weather of a city.   \n <p style="color: red"> try: </p>   weather haifa
+  <p style="color: green">theme</p> change the theme. \n <p style="color: red"> try: </p>   theme random
+  <p style="color: green">evl</p> evaluate math expressions. \n <p style="color: red"> try: </p>   evl 2+2 \n   evl 2 inch to cm\n   evl x=50^2 \n   evl x+2  
+  <p style="color: green">der</p> dervitave of math expressions. \n <p style="color: red"> try: </p>   der 5x^3+2x^2 \n   der 3x^3\n   der 5x \n   der x+2  
+  <p style="color: green">tex</p> convert math expressions to tex format. \n <p style="color: red"> try: </p>   tex 2x \n   tex 2x+2 \n   tex x=50^2 \n   tex x+2
+  <p style="color: green">clear</p> clear the terminal.
+  <p style="color: green">ls</p> list all files and directories.
+  <p style="color: green">cd</p> change directory.
+  <p style="color: green">pwd</p> print working directory.
+  <p style="color: green">mkdir</p> create a directory. \n <p style="color: red"> try: </p>   mkdir newDir
+  <p style="color: green">echo</p> print a message or make file with message. \n <p style="color: red"> try: </p>   echo helloWorld \n   echo helloWorld > newFile.txt
+  <p style="color: green">cat</p> print the content of a file. \n <p style="color: red"> try: </p>   cat newFile.txt
+  <p style="color: green">touch</p> create a file.
+  <p style="color: green">rm</p> remove a file or directory.
   `;
 };
 

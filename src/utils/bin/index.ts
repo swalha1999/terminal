@@ -8,3 +8,4 @@ export * from './neofetch';
 export * from './cowsay';
 export * from './filesystem';
 export * from './figlet';
+export * from './math';
