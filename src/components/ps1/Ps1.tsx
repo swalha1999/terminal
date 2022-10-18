@@ -39,7 +39,7 @@ export const Ps1 = () => {
           color: theme.white,
         }}
       >
-        :$ ~
+        :$ ~ 
       </span>
     </div>
   );

@@ -31,6 +31,7 @@ export const ShellProvider: React.FC<ShellProviderProps> = ({ children }) => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
+    // setCommand('theme set brogrammer');
     setCommand('banner');
   }, []);
 
