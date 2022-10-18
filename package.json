@@ -20,7 +20,7 @@
     "url": "https://github.com/m4tt72/terminal"
   },
   "scripts": {
-    "start": "next start",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-8080}",
     "build": "next build",
     "dev": "next dev",
     "next": "next",
