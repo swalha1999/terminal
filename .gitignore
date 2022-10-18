@@ -41,6 +41,6 @@ jspm_packages
 
 .env
 
-_static/
+_static
 
 .vscode/
