@@ -3,7 +3,7 @@ import  root  from "../../filesystem/filesystem";
 let fileroot = root;
 
 export const ls = async (args: string[]): Promise<string> => {
-    return fileroot.getFolders() + fileroot.getFiles();
+    return fileroot.getFolders() + " "+ fileroot.getFiles();
 };
 
 export const mkdir = async (args: string[]): Promise<string> => {
@@ -74,15 +74,21 @@ Example:
     }
 
     const folder = fileroot.getFolder(args[0]);
+    const file = fileroot.getFile(args[0]);
 
     if (folder) {
         fileroot.folders = fileroot.folders.filter((f) => f !== folder);
-    }else {
-        return "Folder not found";
+        return "Folder removed";
+    }
+    else if (file) {
+        fileroot.files = fileroot.files.filter((f) => f !== file);
+        return "File removed";
+    }
+    else {
+        return "Folder or file not found";
     }
 
-    return "Folder removed";
-}
+  }
 
 export const cat = async (args: string[]): Promise<string> => {
     if (args.length === 0) {

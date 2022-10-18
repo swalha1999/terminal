@@ -2,14 +2,34 @@ import packageJson from '../../../package.json';
 import * as bin from './index';
 
 export const help = async (args: string[]): Promise<string> => {
-  const commands = Object.keys(bin).sort().join(', ');
+  // const commands = Object.keys(bin).sort().join(', ');
+  // return `Available commands:\n${commands}\n\n[tab]\t trigger completion.\n[ctrl+l] clear terminal.\n[ctrl+c] cancel command.`;
 
-  return `Available commands:\n${commands}\n\n[tab]\t trigger completion.\n[ctrl+l] clear terminal.\n[ctrl+c] cancel command.`;
+  return `Available commands:
+  
+  cv: get my cv.
+  about: get information about the me and the project.
+  
+  help: get all available commands and their usage.
+  clear: clear the terminal.
+  ls: list all files and directories.
+  cd: change directory.
+  pwd: print working directory.
+  mkdir: create a directory.
+  theme: change the theme.
+  weather: get the weather of a city.
+  echo: print a message or make file with message.
+  cat: print the content of a file.
+  touch: create a file.
+  rm: remove a file or directory.
+  linkedin: get my linkedin profile.
+  github: get my github profile.
+  instagram: get my instagram profile.
+  figlet: print a message in ascii art.
+  cowsay: print a message in a cow.
+  
+  `;
 };
-
-// export const echo = async (args: string[]): Promise<string> => {
-//   return args.join(' ');
-// };
 
 export const whoami = async (args: string[]): Promise<string> => {
   return 'guest';
@@ -41,6 +61,12 @@ export const vim = async (args: string[]): Promise<string> => {
 
 export const emacs = async (args?: string[]): Promise<string> => {
   return `really? emacs? you should be using 'vim'`;
+};
+
+export const cv = async (args?: string[]): Promise<string> => {
+  window.open('https://drive.google.com/file/d/1Pj-JEeNdc7GYFM1zev0Yc4xdvEeND3vI/view');
+
+  return 'Opening CV...';
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {

@@ -1,7 +1,14 @@
 import figletAlice from 'figlet';
 
 export const figlet = async (args: string[]): Promise<string> => {
-    
+    if (args.length === 0) {
+        return `
+        Usage: figlet <text>
+        or
+        figlet -f <font> <text>
+        `
+    }
+
     if (args[0] === '--fonts') {
         return `
         1Row
@@ -315,5 +322,5 @@ export const figlet = async (args: string[]): Promise<string> => {
             outdata = data;
         });
         
-    return outdata;
+    return outdata ?  outdata : "plase try again tap the up arrow and press enter";
 }
