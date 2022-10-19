@@ -6,6 +6,7 @@ export const figlet = async (args: string[]): Promise<string> => {
         Usage: figlet <text>
         or
         figlet -f <font> <text>
+        figlet --fonts to list available fonts
         `
     }
 
@@ -322,5 +323,5 @@ export const figlet = async (args: string[]): Promise<string> => {
             outdata = data;
         });
         
-    return outdata ?  outdata : "plase try again tap the up arrow and press enter";
+    return outdata ?  outdata : "plase try again. tap the up arrow and press enter";
 }
