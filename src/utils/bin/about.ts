@@ -4,6 +4,7 @@ export const about = async (args: string[]): Promise<string> => {
   // const bio = await getBio();
   
   const bio = `
+  email: mohamd514.m@gmail.com
   Computer science student looking for internship or part-time job as a software engineer. 
   I am a self-motivated, hard-working, quick learner and passionate about learning new technologies.
   Experience in C++, Python, Go, React, Node.js, Express, MongoDB, PostgreSQL, 
