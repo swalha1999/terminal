@@ -32,7 +32,7 @@ export const help = async (args: string[]): Promise<string> => {
 };
 
 export const whoami = async (args: string[]): Promise<string> => {
-  return 'guest';
+  return 'Falcon';
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -40,9 +40,9 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  //window.open('https://m4tt72.com', '_self');
 
-  return 'Opening GUI version...';
+  return 'GUI is not supported yet. Comming soon...';
 };
 
 export const email = async (args: string[]): Promise<string> => {
