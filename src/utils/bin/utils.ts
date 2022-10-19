@@ -92,12 +92,18 @@ export const banner = (args?: string[]): string => {
   ╹ ╹┗━┛╹ ╹╹ ╹╹ ╹╹ ╹╹ ╹╺┻┛   ┗━┛┗┻┛╹ ╹┗━╸╹ ╹╹ ╹v${packageJson.version}
 
     Type 'help' to see list of available commands.
-
+    Type 'about' to get information about the project.
+    Type 'cv' to get my cv.   
     --
     The project is open-source 🎉 type 'repo' to check out the repository.
 
-    New 🎉: Try out the new 'theme' command. See all available themes <a href="https://github.com/m4tt72/terminal/tree/master/docs/themes">in the docs</a>.
-    New 🎉: New command 'neofetch', for you linux.
+    Computer science student looking for internship or part-time job as a software engineer. 
+    I am a self-motivated, hard-working, quick learner and passionate about learning new technologies.
+    Experience in C++, Python, Go, React, Node.js, Express, MongoDB, PostgreSQL, 
+    Docker/Kubernetes, Git, and Agile development.
+    
+    Worked on multiple projects using different technologies and frameworks.
+    I am a team player and I am always ready to learn new things.
 --
 `;
 };
