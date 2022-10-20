@@ -45,6 +45,11 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
+export const c = async (args: string[]): Promise<string> => {
+  return new Date().toString();
+};
+
+
 export const gui = async (args: string[]): Promise<string> => {
   //window.open('https://m4tt72.com', '_self');
 
