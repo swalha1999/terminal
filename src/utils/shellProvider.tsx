@@ -31,12 +31,12 @@ export const ShellProvider: React.FC<ShellProviderProps> = ({ children }) => {
   const { theme, setTheme } = useTheme();
 
   useEffect(() => {
-    // setCommand('theme set brogrammer');
     setCommand('banner');
   }, []);
 
   useEffect(() => {
     if (!init) {
+      bin['figlet'](['hello','world'])
       execute();
     }
   }, [command, init]);
