@@ -71,7 +71,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const cv = async (args?: string[]): Promise<string> => {
-  window.open('https://drive.google.com/file/d/1Pj-JEeNdc7GYFM1zev0Yc4xdvEeND3vI/view');
+  window.open('https://drive.google.com/file/d/1Pj-JEeNdc7GYFM1zev0Yc4xdvEeND3vI/view?usp=sharing');
 
   return 'Opening CV...';
 };
@@ -97,12 +97,12 @@ export const banner = (args?: string[]): string => {
   ┏┳┓╻ ╻╻ ╻┏━┓┏┳┓┏┳┓┏━┓╺┳┓   ┏━┓╻ ╻┏━┓╻  ╻ ╻┏━┓
   ┃┃┃┃ ┃┣━┫┣━┫┃┃┃┃┃┃┣━┫ ┃┃   ┗━┓┃╻┃┣━┫┃  ┣━┫┣━┫
   ╹ ╹┗━┛╹ ╹╹ ╹╹ ╹╹ ╹╹ ╹╺┻┛   ┗━┛┗┻┛╹ ╹┗━╸╹ ╹╹ ╹v${packageJson.version}
+  The project is open-source 🎉 type 'repo' to check out the repository.
 
     Type 'help' to see list of available commands.
     Type 'about' to get information about the project.
     Type 'cv' to get my cv.   
     --
-    The project is open-source 🎉 type 'repo' to check out the repository.
 
     Computer science student looking for internship or part-time job as a software engineer. 
     I am a self-motivated, hard-working, quick learner and passionate about learning new technologies.
