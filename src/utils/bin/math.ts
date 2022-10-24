@@ -38,7 +38,12 @@ export const evl = async (args: string[]): Promise<string> => {
     
     Example:
     
-    eval 2 + 2 # to evaluate the expression 2 + 2`;
+    evl 2 + 2 # to evaluate the expression 2 + 2
+    evl 2 inch to cm
+    evl x = 2 * pi
+    evl sin(x)
+    `;
+
     }
     
     const expression = args.join(' ');
