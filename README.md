@@ -41,8 +41,10 @@ npm start
 [Here's](/docs/themes) a list of available themes.
 
 
-## Contributing
 
+
+## Contributing
+this is a forked from https://github.com/m4tt72/terminal
 Please feel free to pull requests or log issues.
 
 Thanks!
