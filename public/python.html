@@ -195,6 +195,12 @@
               term.set_prompt(ps1);
               window.close();
             },
+
+            "CTRL+Z": async function (event, original) {
+
+              window.close();
+            },
+
             TAB: (event, original) => {
               const command = term.before_cursor();
               // Disable completion for whitespaces.
