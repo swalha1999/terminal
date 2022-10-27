@@ -10,3 +10,4 @@ export * from './filesystem';
 export * from './figlet';
 export * from './math';
 export * from './help';
+export * from './python';
