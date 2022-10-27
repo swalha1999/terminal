@@ -193,11 +193,13 @@
               echo("KeyboardInterrupt");
               term.set_command("");
               term.set_prompt(ps1);
-              window.close();
             },
 
             "CTRL+Z": async function (event, original) {
+              window.close();
+            },
 
+            "CTRL+D": async function (event, original) {
               window.close();
             },
 

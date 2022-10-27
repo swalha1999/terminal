@@ -69,6 +69,7 @@ export const banner = (args?: string[]): string => {
   ┃┃┃┃ ┃┣━┫┣━┫┃┃┃┃┃┃┣━┫ ┃┃   ┗━┓┃╻┃┣━┫┃  ┣━┫┣━┫
   ╹ ╹┗━┛╹ ╹╹ ╹╹ ╹╹ ╹╹ ╹╺┻┛   ┗━┛┗┻┛╹ ╹┗━╸╹ ╹╹ ╹v${packageJson.version}
   The project is open-source 🎉 type 'repo' to check out the repository.
+  New 🎉 python interpreter is now available. type 'python' to try it out.
 
     Type 'help' to see list of available commands.
     Type 'about' to get information about the project.

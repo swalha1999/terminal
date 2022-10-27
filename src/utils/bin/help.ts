@@ -20,6 +20,13 @@ type any of the following commands without arguments to get examples and usage:
     <td> get information about the me and the project.<td>
 </tr>
 <tr>
+    <td style="color: green">repo</td>
+    <td> get this project repository.<td>
+</tr>
+<tr>
+    <td style="color: green">python</td>
+    <td> get python interpreter. press CTRL+D to exit.<td>
+<tr>
     <td style="color: green">linkedin</td>
     <td> get my linkedin profile.<td>
 </tr>
