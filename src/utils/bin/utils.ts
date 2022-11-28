@@ -63,6 +63,7 @@ export const repo = async (args?: string[]): Promise<string> => {
   return 'Opening repository...';
 };
 
+
 export const sl2 = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
     window.open('https://docs.google.com/presentation/d/1KxIg5ekF_ueiPRAAcOnkM5QrhReXvM8C/edit?usp=share_link&ouid=108651316753634577484&rtpof=true&sd=true', '_blank');
@@ -70,6 +71,7 @@ export const sl2 = async (args?: string[]): Promise<string> => {
 
   return 'Opening ytek slide 2...';
 };
+
 
 export const banner = (args?: string[]): string => {
   return `
