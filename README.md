@@ -1,5 +1,7 @@
 # [Terminal](https://swalha1999.com)
 
+https://swalha1999.com
+
 A terminal style website
 
 ![screenshot](/docs/screenshot.png)
