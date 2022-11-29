@@ -73,6 +73,14 @@ export const sl2 = async (args?: string[]): Promise<string> => {
 };
 
 
+export const sl1 = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://sites.google.com/ytek.co.il/phishing', '_blank');
+  }, 300);
+
+  return 'Opening ytek slide 3...';
+};
+
 export const banner = (args?: string[]): string => {
   return `
   ┏┳┓╻ ╻╻ ╻┏━┓┏┳┓┏┳┓┏━┓╺┳┓   ┏━┓╻ ╻┏━┓╻  ╻ ╻┏━┓
