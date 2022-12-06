@@ -66,7 +66,7 @@ export const repo = async (args?: string[]): Promise<string> => {
 
 export const sl2 = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://docs.google.com/presentation/d/1KxIg5ekF_ueiPRAAcOnkM5QrhReXvM8C/edit?usp=share_link&ouid=108651316753634577484&rtpof=true&sd=true', '_blank');
+    window.open('https://docs.google.com/presentation/d/17aWO9JEh3yc6ECB1iuKCCNulG3NErtMt/edit?usp=sharing&ouid=108651316753634577484&rtpof=true&sd=true', '_blank');
   }, 300);
 
   return 'Opening ytek slide 2...';
