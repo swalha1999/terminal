@@ -11,3 +11,4 @@ export * from './figlet';
 export * from './math';
 export * from './help';
 export * from './python';
+export * from './frc';
