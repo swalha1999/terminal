@@ -1,3 +1,4 @@
+import { exp } from 'mathjs';
 import packageJson from '../../../package.json';
 import * as bin from './index';
 
@@ -43,7 +44,6 @@ export const emacs = async (args?: string[]): Promise<string> => {
 
 export const cv = async (args?: string[]): Promise<string> => {
   window.open('https://drive.google.com/file/d/1Pj-JEeNdc7GYFM1zev0Yc4xdvEeND3vI/view?usp=sharing');
-
   return 'Opening CV...';
 };
 
@@ -104,3 +104,7 @@ export const banner = (args?: string[]): string => {
 --
 `;
 };
+
+export const gassan = async (args?: string[]): Promise<string> => {
+  return 'Gassan is gay';
+}
