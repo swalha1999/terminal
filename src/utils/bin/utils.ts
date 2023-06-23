@@ -25,7 +25,7 @@ export const gui = async (args: string[]): Promise<string> => {
 
 export const email = async (args: string[]): Promise<string> => {
   window.open('mailto:mohamd514.m@gmail.com');
-
+  navigator.clipboard.writeText('mohamd514.m@gmail.com');
   return 'Opening mailto:mohamd514.m@gmail.com';
 };
 
