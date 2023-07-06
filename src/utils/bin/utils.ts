@@ -1,6 +1,7 @@
 import { exp } from 'mathjs';
 import packageJson from '../../../package.json';
 import * as bin from './index';
+import { set } from 'date-fns';
 
 
 export const allc = async (args: string[]): Promise<string> => {
@@ -107,4 +108,12 @@ export const banner = (args?: string[]): string => {
 
 export const gassan = async (args?: string[]): Promise<string> => {
   return 'Gassan is gay';
+}
+
+export const cshaifa = async (args?: string[]): Promise<string> => {
+  setTimeout(function () {
+    window.open('https://drive.google.com/drive/folders/10hxbAc4E2qUSopuwe-XOOnxyC8mMaa81?usp=sharing');
+  }
+    , 1000);
+  return 'Opening cs-haifa...';
 }
